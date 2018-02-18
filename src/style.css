@@ -1,0 +1,167 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: #f9f9f9ff;
+  font-family: open-sans;
+}
+
+.app-row {
+  height: 100vh;
+}
+
+/* LOGOBAR STYLES */
+
+.logo {
+  background-color: #2b2f3eff;
+  height: 100%;
+  padding-top: 1%;
+}
+
+.logo h2 {
+  color: white;
+  font-weight: lighter;
+
+}
+
+.logo h4 {
+  color: #808080ff;
+  font-size: 1.2em;
+}
+
+/* TASKS LIST STYLES */
+
+.tasks-list {
+  padding-top: 20px;
+  padding-left: 0px;
+  box-shadow: 0 0 10px 0px #00000040;
+  margin: 30px 10px auto 30px;
+  min-height: 60%;
+  max-height: 80%;
+  background-color: white;
+
+}
+
+.create-task-form {
+  padding-left: 30px;
+}
+
+.tasks-list h2 {
+  color: #787b87;
+  padding-left: 30px
+}
+
+.tasks-list h5 {
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.item {
+  margin-left: 30px;
+  margin-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: #787b87 1px solid;
+}
+
+
+.delete-btn {
+  color: #ff305aff;
+  border-color: #ff305aff;
+  background-color: transparent;
+  width: 100px;
+  height: 35px;
+}
+
+.active {
+  border-left: #ff2f5a 2px solid;
+}
+
+.comments-counter {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: 1em;
+}
+
+.item-submit {
+  /* width: 130px; */
+}
+
+.item-input{
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.item-input input {
+  width: 100% !important;
+}
+
+/* COMMENTS BAR STYLES */
+
+.commentsbar {
+  padding-top: 20px;
+  box-shadow: 0 0 10px 0px #00000040;
+  margin: 30px 20px auto 10px;
+  min-height: 75%;
+  max-height: 80%;
+  position: relative;
+  background-color: white;
+}
+
+.commentsbar h2 {
+  color: #808080ff;
+}
+
+.commentsList {
+  overflow-y: auto;
+  min-height: 300px;
+  max-height: 420px;
+}
+
+
+.orange-avatar, .blue-avatar, .silver-avatar {
+  /* margin-right: 15px; */
+  height: 50px;
+  width: 50px;
+}
+
+.orange-avatar {
+  margin-top: 5px;
+  background-color: #ff8a00ff;
+}
+
+.blue-avatar {
+  margin-top: 5px;
+  background-color: #47568cff;
+}
+
+.silver-avatar {
+  height: 50px;
+  width: 50px;
+  background-color: #e6e6e6ff;
+}
+
+.commentInput {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  /* margin-left: 0px; */
+}
+
+.avatar-space {
+  padding: 0;
+  max-width: 50px;
+}
+.commentInput textarea {
+  width: 110%;
+}
+
+.comment {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  border-bottom: #787b87 1px solid;
+
+}
