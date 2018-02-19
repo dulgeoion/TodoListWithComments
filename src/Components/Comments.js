@@ -11,13 +11,12 @@ class Comments extends React.Component {
   }
 
   addComment(event){
-
-    if (event.key === "Enter" && this.refs.commentInput.value != '' ){
+    if (event.key === "Enter" && this.refs.commentInput.value.trim()!==""){
       this.props.onAddComment(this.props.id, this.refs.commentInput.value);
       this.refs.commentInput.value = '';
     }
-
   }
+
   render(){
     const id = this.props.id;
     return(

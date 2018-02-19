@@ -9,9 +9,10 @@ class TasksList extends React.Component {
   addItem(event){
     event.preventDefault();
     let input = this.refs.itemInput.value;
-    // console.log(this.props);
-    this.props.onAddItem(input);
-    this.refs.itemInput.value = '';
+    if (input.trim().length>0){
+      this.props.onAddItem(input);
+      this.refs.itemInput.value = '';
+    }
   }
 
 
@@ -19,7 +20,7 @@ class TasksList extends React.Component {
   render(){
     let tasks;
 
-  
+
     return(
       <div className="tasks-list col-sm-12 col-md-4 col-xs-12">
 
