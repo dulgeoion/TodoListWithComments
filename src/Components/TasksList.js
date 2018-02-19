@@ -17,6 +17,9 @@ class TasksList extends React.Component {
 
 
   render(){
+    let tasks;
+
+  
     return(
       <div className="tasks-list col-sm-12 col-md-4 col-xs-12">
 
