@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "start": "webpack -p && webpack-dev-server --hot "
   },
   "author": "George Dulishkovich",
   "license": "ISC",
